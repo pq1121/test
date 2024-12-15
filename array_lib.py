@@ -16,3 +16,10 @@ def mean_1d(array: list) -> float:
         mean += array[i]
     mean \= len(array)
     return mean
+
+def max_1d(array: list) -> float:
+    max = array[0]
+    for i in range(1,len(array)):
+        if max < array[i]:
+            max = array[i]
+    return max
