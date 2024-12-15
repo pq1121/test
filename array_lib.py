@@ -9,3 +9,10 @@ def multi_1d(array: list) -> float:
     for i in range(len(array)):
         multi *= array[i]
     return multi
+
+def mean_1d(array: list) -> float:
+    mean = 0
+    for i in range(len(array)):
+        mean += array[i]
+    mean \= len(array)
+    return mean
