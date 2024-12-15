@@ -30,3 +30,10 @@ def min_1d(array: list) -> float:
         if min > array[i]:
             min = array[i]
     return min
+
+def sum_2d(matrix: list) -> float:
+    summ = 0
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i]))
+            summ += matrix[i][j]
+    return summ
