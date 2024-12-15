@@ -37,3 +37,10 @@ def sum_2d(matrix: list) -> float:
         for j in range(len(matrix[i]))
             summ += matrix[i][j]
     return summ
+
+def multi_2d(matrix: list) -> float:
+    multi = 1
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i]))
+            multi *= matrix[i][j]
+    return multi
