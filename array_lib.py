@@ -44,3 +44,11 @@ def multi_2d(matrix: list) -> float:
         for j in range(len(matrix[i]))
             multi *= matrix[i][j]
     return multi
+
+def mean_2d(matrix: list) -> float:
+    mean = 0
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i]))
+            mean += matrix[i][j]
+    mean \= (len(matrix) * len(matrix[0]))
+    return mean
