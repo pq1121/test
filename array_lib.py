@@ -14,7 +14,7 @@ def mean_1d(array: list) -> float:
     mean = 0
     for i in range(len(array)):
         mean += array[i]
-    mean \= len(array)
+    mean /= len(array)
     return mean
 
 def max_1d(array: list) -> float:
@@ -34,37 +34,37 @@ def min_1d(array: list) -> float:
 def sum_2d(matrix: list) -> float:
     summ = 0
     for i in range(len(matrix)):
-        for j in range(len(matrix[i]))
+        for j in range(len(matrix[i])):
             summ += matrix[i][j]
     return summ
 
 def multi_2d(matrix: list) -> float:
     multi = 1
     for i in range(len(matrix)):
-        for j in range(len(matrix[i]))
+        for j in range(len(matrix[i])):
             multi *= matrix[i][j]
     return multi
 
 def mean_2d(matrix: list) -> float:
     mean = 0
     for i in range(len(matrix)):
-        for j in range(len(matrix[i]))
+        for j in range(len(matrix[i])):
             mean += matrix[i][j]
-    mean \= (len(matrix) * len(matrix[0]))
+    mean /= (len(matrix) * len(matrix[0]))
     return mean
 
 def max_2d(matrix: list) -> float:
     max = matrix[0][0]
     for i in range(len(matrix)):
-        for j in range(len(matrix[i]))
-        if max < matrix[i][j]:
-            max = matrix[i][j]
+        for j in range(len(matrix[i])):
+            if max < matrix[i][j]:
+                max = matrix[i][j]
     return max
 
 def min_2d(matrix: list) -> float:
     min = matrix[0][0]
     for i in range(len(matrix)):
-        for j in range(len(matrix[i]))
-        if min > matrix[i][j]:
-            min = matrix[i][j]
+        for j in range(len(matrix[i])):
+            if min > matrix[i][j]:
+                min = matrix[i][j]
     return min
