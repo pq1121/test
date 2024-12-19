@@ -1,2 +1,9 @@
-# Игнорировать все .txt файлы в корне
+# ignore all .txt
 *.txt
+
+# ignore all venv
+venv/
+.env
+
+# ignore all Pycharm
+.idea/
