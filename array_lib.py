@@ -68,3 +68,9 @@ def min_2d(matrix: list) -> float:
             if min > matrix[i][j]:
                 min = matrix[i][j]
     return min
+
+def sum_arr(arr1: list,arr2: list) -> list:
+    sum_lst = []
+    for i in range(len(arr1)):
+        sum_lst.append(int(arr1[i] + arr2[i]))
+    return sum_lst
