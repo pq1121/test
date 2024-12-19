@@ -35,14 +35,11 @@ def origin():
                 print('4. Выход в предыдущее меню\n')
                 num1 = input()
                 if num1 == "1":
-                    from create_array import output_arr
-                    print(output_arr(lst1))
+                    print(f'Первый массив {lst1}\n')
                 elif num1 == "2":
-                    from create_array import output_arr
-                    print(output_arr(lst2))
+                    print(f'Первый массив {lst2}\n')
                 elif num1 == "3":
-                    from create_array import output_arr
-                    print(output_arr(lst3))
+                    print(f'Первый массив {lst3}\n')
                 elif num1 == "4":
                     work1 = False
                 else:
