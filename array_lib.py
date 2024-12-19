@@ -74,3 +74,17 @@ def sum_arr(arr1: list,arr2: list) -> list:
     for i in range(len(arr1)):
         sum_lst.append(int(arr1[i] + arr2[i]))
     return sum_lst
+
+def min_2d(matrix: list) -> float:
+    min = matrix[0][0]
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            if min > matrix[i][j]:
+                min = matrix[i][j]
+    return min
+
+def diff_arr(arr1: list,arr2: list) -> list:
+    diff_lst = []
+    for i in range(len(arr1)):
+        diff_lst.append(int(arr1[i] - arr2[i]))
+    return diff_lst
