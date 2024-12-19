@@ -10,8 +10,10 @@ def origin():
         if num == "1":
             from create_array import create_array_1d
             lst1 = create_array_1d()
+            print(log_action("Создание первого массива 1d из случайных чисел"))
         if num == "2":
             from create_array import create_array_1d
             lst2 = create_array_1d()
+            print(log_action("Создание второго массива 1d из случайных чисел"))
         if num == "4":
             work = False
