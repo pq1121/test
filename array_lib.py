@@ -68,3 +68,9 @@ def max_2d(matrix: list) -> float:
             if max < matrix[i][j]:
                 max = matrix[i][j]
     return max
+
+def sum_arr(arr1: list,arr2: list) -> list:
+    sum_lst = []
+    for i in range(len(arr1)):
+        sum_lst.append(int(arr1[i] + arr2[i]))
+    return sum_lst
